@@ -35,6 +35,7 @@
   align-items: center;
   display: flex;
   text-align: start;
+
   h1 {
     font-size: 5rem;
     -webkit-background-clip: text;
@@ -52,6 +53,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+
     .badge {
       border: 1px solid #FFD700;
       background-color: rgba(0, 200, 150, 0.2);
@@ -64,13 +66,18 @@
   }
 }
 
- .green-span{
-    color: #acfc00 !important;
-  }
+.green-span {
+  color: #acfc00 !important;
+}
 
 @media (max-width: 992px) {
-  .banner-content h1 {
-    font-size: 2.4rem;
+  .banner-content {
+
+    flex-direction: column-reverse;
+
+    h1 {
+      font-size: 2.4rem;
+    }
   }
 }
 
@@ -329,7 +336,7 @@
   .choose-about {
 
     h2 {
-      font-size: 35px;
+      font-size: 25px;
     }
   }
 }
@@ -338,11 +345,17 @@
   .why-grid {
     grid-template-columns: 1fr;
   }
+
   .why-title {
     font-size: 20px;
   }
+
   .why-container {
     padding: 15px;
+  }
+
+  .casino-section h2 {
+    font-size: 30px;
   }
 }
 
@@ -418,14 +431,17 @@
   .choose-grid {
     grid-template-columns: 1fr;
   }
+
   .choose-title {
     font-size: 20px;
     gap: 5px;
     margin-bottom: 30px;
   }
+
   .choose-title .icon {
     font-size: 30px;
   }
+
   .choose-card {
     padding: 15px;
   }

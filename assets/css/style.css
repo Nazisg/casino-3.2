@@ -101,6 +101,7 @@ header .logo {
 footer {
   background-color: #272944;
 }
+
 .footer-section {
   padding: 40px 0;
   background-color: #272944;
@@ -138,6 +139,7 @@ footer {
     color: #ffd700;
     font-size: 18px;
   }
+
   span {
     color: #b8bcc8;
   }
@@ -177,6 +179,7 @@ footer {
 .logos img:hover {
   opacity: 1;
 }
+
 .copyright {
   text-align: center;
   padding-top: 2rem;
